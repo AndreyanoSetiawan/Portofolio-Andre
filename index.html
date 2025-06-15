@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andreyano | Portofolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Montserrat", sans-serif;
+      }
+
+      body {
+        background: rgb(160, 160, 160);
+        color: #fff;
+        padding: 2rem;
+      }
+
+      header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 4rem;
+      }
+
+      header img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+        border: 3px solid #fbff00;
+      }
+
+      header h1 {
+        font-size: 2.5rem;
+        color: #ffffff;
+      }
+
+      header p {
+        font-size: 1.1rem;
+        color: #ffffff;
+        margin: 0.5rem 0;
+      }
+
+      .btn {
+        margin-top: 1rem;
+        padding: 0.7rem 1.5rem;
+        background-color: #fbff00;
+        color: #000000;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background 0.3s ease;
+      }
+
+      .btn:hover {
+        background-color: #fbff00;
+      }
+
+      .section {
+        margin-bottom: 4rem;
+      }
+
+      .section h2 {
+        color: #fbff00;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+      }
+
+      .about,
+      .skills,
+      .Biodata,
+      .projects,
+      .section {
+        color: #ffffff;
+        background: #1e1e1e;
+        padding: 2rem;
+        border-radius: 10px;
+      }
+
+      .skills ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        color: #ffffff;
+      }
+
+      .projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+      }
+
+      .contacts {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+      }
+
+      .project-card {
+        background: #2a2a2a;
+        padding: 1rem;
+        border-radius: 8px;
+        transition: transform 0.3s;
+      }
+
+      .project-card:hover {
+        transform: scale(1.05);
+      }
+
+      .project-card img {
+        width: 100%;
+        border-radius: 5px;
+        margin-bottom: 0.5rem;
+      }
+
+      footer {
+        text-align: center;
+        color: #666;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="Andrep.jpg" alt="Foto Frofil" />
+      <h1>Andreyano Setiawan</h1>
+      <p>Mahasiswa | Teknik Informatika | Universitas Palangka Raya</p>
+    </header>
+
+    <section class="section about">
+      <h2>Perkenalan</h2>
+      <p>
+        Perkenalkan nama saya Andreyano Setiawan, dari Fakultas Teknik, Jurusan
+        Teknik Informatika, Universitas Palangka Raya, angkatan 2024. Laman ini
+        bertujuan untuk memperkenalkan diri saya kepada kalian.
+      </p>
+    </section>
+
+    <section class="section Biodata">
+      <h2>Biodata</h2>
+      <p>Nama : Andreyano Setiawan</p>
+      <p>Tempat, tanggal lahir : Palangka Raya, 06 Desember 2006</p>
+      <p>Alamat : Jl. Galaxi II</p>
+      <p>No.Telp : 082250844864</p>
+    </section>
+
+    <section class="section skills">
+      <h2>Pendidikan</h2>
+      <p>TK TUNAS BANGSA</p>
+      <p>TK PALANGKA 2</p>
+      <p>SDN 1 SABABILAH</p>
+      <p>SMPN 4 DUSUN SELATAN</p>
+      <p>SMAN 1 BUNTOK</p>
+      <p>UNIVERSITAS PALANGKA RAYA</p>
+    </section>
+
+    <section class="section projects">
+      <h2>Prestasi</h2>
+      <div class="project-card">
+        <img
+          src="Screenshot_2025-06-15_112416-removebg-preview.png"
+          alt="Project 1"
+        />
+        <h3>Pesparawi XVII Tingkat Provinsi Kalimantan Tengah Tahun 2024</h3>
+        <p>Juara Harapan 3 kategori Paduan Suara Remaja Pemuda.</p>
+      </div>
+
+      <div class="project-card">
+        <img
+          src="Screenshot_2025-06-15_112416-removebg-preview.png"
+          alt="Project 2"
+        />
+        <h3>Pesparawi XVII Tingkat Provinsi Kalimantan Tengah Tahun 2024</h3>
+        <p>Medali Emas Kategori Vocal Grup</p>
+      </div>
+
+      <div class="project-card">
+        <img src="fls2n-logo-png_seeklogo-431057.png" alt="Project 3" />
+        <h3>FLS2N 2022</h3>
+        <p>Juara 1 Kategori Vocal Solo Putra</p>
+      </div>
+
+      <div class="project-card">
+        <img src="logo-pesparawi1.png" alt="Project 4" />
+        <h3>Pesparawi IX Tingkat Kabupaten Barito Selatan</h3>
+        <p>Juara 1 kategori Paduan Suara Remaja Pemuda</p>
+      </div>
+    </section>
+
+    <section class="section contact">
+      <h2>Contact</h2>
+      <div class="project-card">
+        <h3>Gmail</h3>
+        <a href="https://youtu.be/xvFZjo5PgG0?si=Mm0Do22wgXzVjhld"
+          >andreyano6126@gmail.com</a
+        >
+      </div>
+
+      <div class="project-card">
+        <h3>Gmail</h3>
+        <a href="https://youtu.be/xvFZjo5PgG0?si=Mm0Do22wgXzVjhld"
+          >082250844864</a
+        >
+      </div>
+    </section>
+
+    <footer>&copy; 2025 Andreyano Setiawan. All rights reserved.</footer>
+
+    <script>
+      document.querySelector(".btn").addEventListener("click", () => {
+        alert("Fitur download CV akan segera tersedia.");
+      });
+    </script>
+  </body>
+</html>
